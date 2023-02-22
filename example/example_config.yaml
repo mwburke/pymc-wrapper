@@ -1,0 +1,16 @@
+independent_vars:
+  - week
+variable_params:
+    lambda_val:
+        params:
+            name: lambda_val
+            sigma: 1
+        dist: HalfNormal
+    intercept:
+        params:
+            name: intercept
+            mu: 0
+            sigma: 1
+        dist: Normal
+sample_params:
+  draws: 1000
