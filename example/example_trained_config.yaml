@@ -7,10 +7,8 @@ variable_params:
     dist: Normal
     params:
       mu: 0.09052028965984911
-      name: intercept
       sigma: 0.00998416579006974
   lambda_val:
     dist: HalfNormal
     params:
-      name: lambda_val
       sigma: 0.8406296371105827
